@@ -29,5 +29,4 @@ func for3Func() {
 	for i, j := range a {
 		fmt.Println(i, j)
 	}
-
 }
