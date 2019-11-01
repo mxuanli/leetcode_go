@@ -19,4 +19,8 @@ func main() {
 	for k, v := range mapB {
 		fmt.Println(k, v)
 	}
+	mapThree, ok := mapB["three"]
+	if ok {
+		fmt.Println(mapThree)
+	}
 }
