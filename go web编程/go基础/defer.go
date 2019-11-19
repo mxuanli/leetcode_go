@@ -10,7 +10,8 @@ func main() {
 }
 
 func testDefer() int {
-	fmt.Println(" world")
+	//执行到return，程序会逆序执行defer语句
+	defer fmt.Println("world")
 	defer fmt.Println("hello")
 	fmt.Println("golang")
 	return 0
