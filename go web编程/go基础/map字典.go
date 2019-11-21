@@ -40,4 +40,11 @@ func Map() {
 	for k, j = range mapB {
 		fmt.Println(k, j)
 	}
+
+	type months map[string]string
+	m := months{
+		"January":  "31",
+		"February": "28",
+	}
+	fmt.Println(m["January"])
 }

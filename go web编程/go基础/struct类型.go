@@ -21,13 +21,18 @@ type Student struct {
 	age int
 }
 
-func main() {
-	Func2()
-	funcStudent()
-	Func1()
+type intStruct1 struct {
+	i1, i2 int
 }
 
-func Func2() {
+func main() {
+	Func1()
+	Func2()
+	funcStudent()
+	Func3()
+}
+
+func Func1() {
 	var p person // 声明一个person类型的变量
 	p.name = "xuanli"
 	p.age = 21
@@ -40,6 +45,13 @@ func Func2() {
 	fmt.Println("名字是", p2.name)
 
 	Older(p, p1)
+}
+
+func Func2() {
+	var int1 intStruct1
+	int1.i1 = 10
+	int1.i2 = 20
+	fmt.Println(int1.i1, int1.i2)
 }
 
 func funcStudent() {
@@ -65,7 +77,7 @@ func Older(p person, p1 person) {
 	}
 }
 
-func Func1() {
+func Func3() {
 	// 当struct字段和匿名类型重复的时候
 	var p3 = person{"tom", 10}
 	s2 := Student{speciality: "幼教", age: 20, person: p3}
