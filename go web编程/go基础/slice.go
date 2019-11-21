@@ -11,4 +11,13 @@ func main() {
 	for k, v := range arrayA {
 		fmt.Println(k, v)
 	}
+	Slice()
+}
+
+func Slice() {
+	var sliceC []string
+	sliceC = append(sliceC, "hello") // 向slice里追加值
+	fmt.Println(sliceC)
+	var sliceD = []string{"abc"}
+	fmt.Println(sliceD)
 }
