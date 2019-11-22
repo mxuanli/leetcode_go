@@ -61,8 +61,7 @@ func funcStudent() {
 	s.speciality = "计算机"
 	fmt.Println(s.name, s.age, s.speciality)
 	s.person = person{"王二", 21}
-	s1 := Student{person{"李四", 17}, "美术",
-		[]string{"python", "java", "golang"}, 10, 10}
+	s1 := Student{person{"李四", 17}, "美术", []string{"python", "java", "golang"}, 10, 10}
 	fmt.Println(s1.name, s1.age, s1.speciality, s1.Skills, s1.int)
 }
 
