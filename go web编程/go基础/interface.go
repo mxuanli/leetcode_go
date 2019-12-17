@@ -23,7 +23,7 @@ type employee struct {
 }
 
 func (h *human) sayHi() {
-	fmt.Print("名字:%s，手机号%s\n", h.name, h.phone)
+	fmt.Printf("名字:%s，手机号%s\n", h.name, h.phone)
 }
 
 func (h *human) sing(lyrics string) {
@@ -35,7 +35,7 @@ func (h *human) Guzzle(beerStein string) {
 }
 
 func (e employee) sayHi() {
-	fmt.Print("名字:%S，手机号%s，公司%s", e.name, e.phone, e.company)
+	fmt.Printf("名字:%S，手机号%s，公司%s", e.name, e.phone, e.company)
 }
 
 func (s *student) borrowMoney(amount float32) {
