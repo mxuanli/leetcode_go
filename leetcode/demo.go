@@ -2,31 +2,43 @@ package main
 
 import "fmt"
 
-func lengthOfLongestSubstring(s string) int {
-	if len(s) == 0 {
-		return 0
+func minWindow(s string, t string) string {
+	result := ""
+	if len(s) == 0 || len(s) < len(t) {
+		return result
 	}
 	var freq [256]int
-	left, right, maxLen := 0, -1, 0
-	for left < len(s) {
-		// 没有重复字符就移动右边界，有重复字符就移动左边界，把重复字符移动出去，直到左边界移动到最后
-		if right+1 < len(s) && freq[s[right+1]-'a'] == 0 {
-			freq[s[right+1]-'a']++
-			right++
-		} else {
-			freq[s[left]-'a']--
+	for i := 0; i < len(t); i++ {
+		freq[t[i]-'a']++
+	}
+	left, right, lastLeft, lastRight, count := 0, 0, -1, len(s), len(t)
+	for ; right < len(s); right++ {
+		if freq[s[right]-'a'] >= 1 {
+			count--
+		}
+		freq[s[right]-'a']--
+		for count == 0 {
+			if right-left < lastRight-lastLeft {
+				lastRight = right
+				lastLeft = left
+			}
+			if freq[s[left]-'a'] == 0 {
+				count++
+			}
+			freq[s[left]-'a']++
 			left++
 		}
-		if maxLen < right-left+1 {
-			maxLen = right - left + 1
-		}
 	}
-	return maxLen
+	if lastLeft != -1 {
+		result = s[lastLeft : lastRight+1]
+	}
+	return result
 }
 
 func main() {
 
-	a := "pwwkew"
-	maxLen := lengthOfLongestSubstring(a)
-	fmt.Println(maxLen)
+	S := "ADOBECODEBANC"
+	T := "ABC"
+	minWin := minWindow(S, T)
+	fmt.Println(minWin)
 }
