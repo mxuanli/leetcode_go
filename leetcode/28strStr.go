@@ -7,15 +7,13 @@ func strStr(haystack string, needle string) int {
 		return 0
 	}
 	var i, j int
-	// i不需要到len-1
 	for i = 0; i < len(haystack)-len(needle)+1; i++ {
 		for j = 0; j < len(needle); j++ {
 			if haystack[i+j] != needle[j] {
 				break
 			}
 		}
-		// 判断字符串长度是否相等
-		if len(needle) == j {
+		if j == len(needle) {
 			return i
 		}
 	}
@@ -23,8 +21,8 @@ func strStr(haystack string, needle string) int {
 }
 
 func main() {
-	a := "ddabcd"
-	b := "abc"
-	c := strStr(a, b)
-	fmt.Println(c)
+	haystack := "hello"
+	needle := "ll"
+	r := strStr(haystack, needle)
+	fmt.Println(r)
 }
