@@ -23,8 +23,6 @@ func strStr(haystack string, needle string) int {
 }
 
 func main() {
-	a := "ddabcd"
-	b := "abc"
-	c := strStr(a, b)
-	fmt.Println(c)
+	a := []int{1, 2, 3}
+	fmt.Println(a[-1])
 }
