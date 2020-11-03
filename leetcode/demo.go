@@ -2,29 +2,26 @@ package main
 
 import "fmt"
 
-func strStr(haystack string, needle string) int {
-	if len(needle) == 0 {
-		return 0
+func subsets(nums []int) [][]int {
+	var result [][]int
+	var list []int
+	backtrack(0, list, &result, nums)
+	return result
+}
+
+func backtrack(i int, list []int, result *[][]int, nums []int) {
+	z := make([]int, len(list))
+	copy(z, list)
+	*result = append(*result, z)
+	for j := i; j < len(nums); j++ {
+		list = append(list, nums[j])
+		backtrack(j+1, list, result, nums)
+		list = list[0 : len(list)-1]
 	}
-	var i, j int
-	// i不需要到len-1
-	for i = 0; i < len(haystack)-len(needle)+1; i++ {
-		for j = 0; j < len(needle); j++ {
-			if haystack[i+j] != needle[j] {
-				break
-			}
-		}
-		// 判断字符串长度是否相等
-		if len(needle) == j {
-			return i
-		}
-	}
-	return -1
 }
 
 func main() {
-	a := "ddabcd"
-	b := "abc"
-	c := strStr(a, b)
+	nums := []int{9, 0, 3, 5, 7}
+	c := subsets(nums)
 	fmt.Println(c)
 }
