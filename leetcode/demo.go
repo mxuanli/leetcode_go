@@ -2,26 +2,41 @@ package main
 
 import "fmt"
 
-func subsets(nums []int) [][]int {
-	var result [][]int
-	var list []int
-	backtrack(0, list, &result, nums)
-	return result
-}
-
-func backtrack(i int, list []int, result *[][]int, nums []int) {
-	z := make([]int, len(list))
-	copy(z, list)
-	*result = append(*result, z)
-	for j := i; j < len(nums); j++ {
-		list = append(list, nums[j])
-		backtrack(j+1, list, result, nums)
-		list = list[0 : len(list)-1]
+func minWindow(s string, t string) string {
+	if len(s) == 0 || len(t) == 0 {
+		return ""
 	}
+	var freq [256]int
+	for i := 0; i < len(t); i++ {
+		freq[t[i]-'a']++
+	}
+	left, right, lastLeft, LastRight, count := 0, 0, -1, len(s), len(t)
+	for ; right < len(s); right++ {
+		if freq[s[right]-'a'] >= 1 {
+			count--
+		}
+		freq[s[right]-'a']--
+		for count == 0 {
+			if right-left < LastRight-lastLeft {
+				lastLeft = left
+				LastRight = right
+			}
+			if freq[s[left]-'a'] >= 0 {
+				count++
+			}
+			freq[s[left]-'a']++
+			left++
+		}
+	}
+	if lastLeft != -1 {
+		return s[lastLeft : LastRight+1]
+	}
+	return ""
 }
 
 func main() {
-	nums := []int{9, 0, 3, 5, 7}
-	c := subsets(nums)
-	fmt.Println(c)
+	s := "ADOBECODEBANC"
+	t := "ABC"
+	r := minWindow(s, t)
+	fmt.Println(r)
 }
