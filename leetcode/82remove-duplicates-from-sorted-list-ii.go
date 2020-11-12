@@ -38,6 +38,31 @@ func deleteDuplicates(head *ListNode2) *ListNode2 {
 	return tmp.Next
 }
 
+func deleteDuplicates2(head *ListNode2) *ListNode2 {
+	if head == nil {
+		return head
+	}
+	// head节点可能会因为重复被删除，所以新建一个节点放在最前边
+	var tmp ListNode2
+	tmp.Val = 0
+	tmp.Next = head
+	a := &tmp
+	b := head
+	for b != nil && b.Next != nil {
+		if a.Next.Val == b.Next.Val {
+			for b != nil && b.Next != nil && a.Next.Val == b.Next.Val {
+				b = b.Next
+			}
+			a.Next = b.Next
+			b = b.Next
+		} else {
+			a = a.Next
+			b = b.Next
+		}
+	}
+	return tmp.Next
+}
+
 func main() {
 	var l1 ListNode2
 	var l2 ListNode2
@@ -52,7 +77,7 @@ func main() {
 		fmt.Println(head.Val)
 		head = head.Next
 	}
-	r := deleteDuplicates(&l1)
+	r := deleteDuplicates2(&l1)
 	for r != nil {
 		fmt.Println(r.Val)
 		r = r.Next

@@ -32,7 +32,7 @@ func main() {
 	var l3 ListNode1
 	l1.Val = 1
 	l2.Val = 1
-	l3.Val = 1
+	l3.Val = 2
 	l1.Next = &l2
 	l2.Next = &l3
 	head := &l1
