@@ -2,41 +2,26 @@ package main
 
 import "fmt"
 
-func minWindow(s string, t string) string {
-	if len(s) == 0 || len(t) == 0 {
-		return ""
+func strStr(haystack string, needle string) int {
+	if len(needle) == 0 {
+		return 0
 	}
-	var freq [256]int
-	for i := 0; i < len(t); i++ {
-		freq[t[i]-'a']++
-	}
-	left, right, lastLeft, LastRight, count := 0, 0, -1, len(s), len(t)
-	for ; right < len(s); right++ {
-		if freq[s[right]-'a'] >= 1 {
-			count--
-		}
-		freq[s[right]-'a']--
-		for count == 0 {
-			if right-left < LastRight-lastLeft {
-				lastLeft = left
-				LastRight = right
+	for i := 0; i < len(haystack)+1-len(needle); i++ {
+		for j := 0; j < len(needle); j++ {
+			if haystack[i+j] != needle[j] {
+				break
 			}
-			if freq[s[left]-'a'] >= 0 {
-				count++
+			if j+1 == len(needle) {
+				return i
 			}
-			freq[s[left]-'a']++
-			left++
 		}
 	}
-	if lastLeft != -1 {
-		return s[lastLeft : LastRight+1]
-	}
-	return ""
+	return -1
 }
 
 func main() {
-	s := "ADOBECODEBANC"
-	t := "ABC"
-	r := minWindow(s, t)
+	haystack := "abcdefg"
+	needle := "g"
+	r := strStr(haystack, needle)
 	fmt.Println(r)
 }
