@@ -38,6 +38,31 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return l1
 }
 
+func addTwoNumbers2(l1 *ListNode, l2 *ListNode) *ListNode {
+	head := &ListNode{}
+	carr := head
+	n1, n2, carry := 0, 0, 0
+	for l1 != nil || l2 != nil || carry != 0 {
+		if l1 != nil {
+			n1 = l1.Val
+			l1 = l1.Next
+		} else {
+			n1 = 0
+		}
+		if l2 != nil {
+			n2 = l2.Val
+			l2 = l2.Next
+		} else {
+			n2 = 0
+		}
+		add := n1 + n2 + carry
+		carr.Next = &ListNode{Val: add % 10}
+		carr = carr.Next
+		carry = add / 10
+	}
+	return head.Next
+}
+
 func main() {
 	l11 := ListNode{Val: 9}
 	l12 := ListNode{Val: 9}
@@ -59,7 +84,7 @@ func main() {
 	l21.Next = &l22
 	l22.Next = &l23
 	l23.Next = &l24
-	n1 := addTwoNumbers(&l11, &l21)
+	n1 := addTwoNumbers2(&l11, &l21)
 	for n1 != nil {
 		fmt.Println(n1.Val)
 		n1 = n1.Next
