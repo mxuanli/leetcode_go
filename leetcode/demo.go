@@ -2,26 +2,22 @@ package main
 
 import "fmt"
 
-func strStr(haystack string, needle string) int {
-	if len(needle) == 0 {
-		return 0
-	}
-	for i := 0; i < len(haystack)+1-len(needle); i++ {
-		for j := 0; j < len(needle); j++ {
-			if haystack[i+j] != needle[j] {
-				break
-			}
-			if j+1 == len(needle) {
-				return i
-			}
+func findMin(nums []int) int {
+	start := 0
+	end := len(nums) - 1
+	for start < end {
+		mid := start + (end-start)/2
+		if nums[mid] < nums[end] {
+			end = mid
+		} else {
+			start = mid + 1
 		}
 	}
-	return -1
+	return nums[start]
 }
 
 func main() {
-	haystack := "abcdefg"
-	needle := "g"
-	r := strStr(haystack, needle)
+	nums := []int{3, 4, 5, 1, 2}
+	r := findMin(nums)
 	fmt.Println(r)
 }
