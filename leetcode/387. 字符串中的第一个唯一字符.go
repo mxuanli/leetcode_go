@@ -14,7 +14,10 @@ s = "loveleetcode"
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func firstUniqChar(s string) int {
 	sMap := make(map[byte]int)
@@ -29,8 +32,18 @@ func firstUniqChar(s string) int {
 	return -1
 }
 
+func firstUniqChar2(s string) int {
+	for i := 0; i < len(s); i++ {
+		r := strings.Count(s, string(s[i]))
+		if r == 1 {
+			return i
+		}
+	}
+	return -1
+}
+
 func main() {
-	s := "loveleetcode"
-	r := firstUniqChar(s)
+	s := "lovveleettccodde"
+	r := firstUniqChar2(s)
 	fmt.Println(r)
 }
