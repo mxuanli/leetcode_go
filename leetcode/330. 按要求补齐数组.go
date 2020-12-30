@@ -23,9 +23,12 @@ func minPatches(nums []int, n int) int {
 	lenNums := len(nums)
 	index := 0
 	for x <= n {
+		// x前边的值都已经被覆盖，如果nums[index]不大于x，则x也会被覆盖
 		if index < lenNums && nums[index] <= x {
+			// 如果x被覆盖，那么x + nums[index] - 1也会被覆盖
 			x = x + nums[index]
 			index = index + 1
+			// 如果nums[index]大于x，则往里加数
 		} else {
 			x = x * 2
 			r = r + 1
