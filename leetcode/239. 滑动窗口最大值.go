@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func maxSlidingWindow(nums []int, k int) []int {
 	var (
@@ -25,9 +27,28 @@ func maxSlidingWindow(nums []int, k int) []int {
 	return r
 }
 
+func maxSlidingWindow2(nums []int, k int) []int {
+	lenNums := len(nums)
+	if lenNums < k {
+		return nil
+	}
+	var r []int
+	for left, right := 0, k; right <= lenNums; left, right = left+1, right+1 {
+		kSlice := nums[left:right]
+		maxNum := kSlice[0]
+		for i := 1; i < len(kSlice); i++ {
+			if maxNum < kSlice[i] {
+				maxNum = kSlice[i]
+			}
+		}
+		r = append(r, maxNum)
+	}
+	return r
+}
+
 func main() {
 	nums := []int{1, 3, -1, -3, 5, 3, 6, 7}
 	k := 3
-	r := maxSlidingWindow(nums, k)
+	r := maxSlidingWindow2(nums, k)
 	fmt.Println(r)
 }
