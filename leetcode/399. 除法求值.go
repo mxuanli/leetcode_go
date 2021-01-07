@@ -7,11 +7,54 @@ func calcEquation(equations [][]string, values []float64, queries [][]string) []
 	for i := 0; i < len(equations); i++ {
 		x, y := equations[i][0], equations[i][1]
 		v := values[i]
-		dd[x][y] = v
-		dd[y][x] = 1 / v
+		if dd[x] == nil {
+			ddX := make(map[string]float64)
+			dd[x] = ddX
+		}
+		ddX := dd[x]
+		ddX[y] = v
+		dd[x] = ddX
+		if dd[y] == nil {
+			ddY := make(map[string]float64)
+			dd[y] = ddY
+		}
+		ddY := dd[y]
+		ddY[x] = 1 / v
+		dd[y] = ddY
 	}
-	fmt.Println(dd)
-	return []float64{0.1}
+	r := []float64{}
+	for _, queried := range queries {
+		start, end := queried[0], queried[1]
+		way := make(map[string]bool, 0)
+		qr := dfs(start, end, way, dd)
+		r = append(r, qr)
+	}
+	return r
+}
+
+func dfs(start string, end string, way map[string]bool, dd map[string]map[string]float64) float64 {
+	way[start] = true
+	if dd[start] == nil {
+		return -1
+	}
+	if start == end {
+		return 1
+	}
+	for key, _ := range dd[start] {
+		if key == end {
+			return dd[start][key]
+		}
+		if way[key] == false {
+			way[key] = true
+			v := dfs(key, end, way, dd)
+			if v != -1 {
+				return v * dd[start][key]
+			}
+		} else {
+
+		}
+	}
+	return -1
 }
 
 func main() {
