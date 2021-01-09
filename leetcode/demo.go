@@ -3,12 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	nums := 123
-	var sliceN []int
-	for nums != 0 {
-		tmp := nums % 10
-		nums = nums / 10
-		sliceN = append(sliceN, tmp)
+	if true && false {
+		fmt.Println(1)
 	}
-	fmt.Println(sliceN)
 }
