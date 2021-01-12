@@ -1,14 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
-	nums := 123
-	var sliceN []int
-	for nums != 0 {
-		tmp := nums % 10
-		nums = nums / 10
-		sliceN = append(sliceN, tmp)
-	}
-	fmt.Println(sliceN)
+	a := 4
+	b := strconv.Itoa(a)
+	fmt.Println(b)
 }
