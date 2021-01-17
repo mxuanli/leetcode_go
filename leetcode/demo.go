@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
-	if true && false {
-		fmt.Println(1)
-	}
+	a := 4
+	b := strconv.Itoa(a)
+	fmt.Println(b)
 }
