@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func findCriticalAndPseudoCriticalEdges(n int, edges [][]int) [][]int {
 	father := make(map[int]int)
@@ -39,12 +42,32 @@ func findCriticalAndPseudoCriticalEdges(n int, edges [][]int) [][]int {
 		}
 		return true
 	}
+	var edgesAddIndex [][]int
 	// 给边添加下标
 	for i, edge := range edges {
 		edge = append(edge, i)
+		edgesAddIndex = append(edgesAddIndex, edge)
 	}
-	fmt.Println(edges)
-	return [][]int{}
+	// 排序
+	sort.Slice(edgesAddIndex, func(i, j int) bool {
+		return edgesAddIndex[i][2] < edgesAddIndex[j][2]
+	})
+	// 计算最小树
+	total := 0
+	num := 1
+	for _, edge := range edgesAddIndex {
+		x := edge[0]
+		y := edge[1]
+		w := edge[2]
+		if isConnected(x, y) == false {
+			total = total + w
+			num = num + 1
+			if num == n {
+				break
+			}
+		}
+	}
+
 }
 
 func main() {
