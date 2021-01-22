@@ -67,7 +67,12 @@ func findCriticalAndPseudoCriticalEdges(n int, edges [][]int) [][]int {
 			}
 		}
 	}
-
+	// 遍历
+	// 先连接当前边之后的总权值
+	// 去掉当前边的权值
+	// 和total比较，如果total和total0相等，说明是有效边
+	// 如果total0和total1不相等，则是关键边
+	// 否则是伪关键边
 }
 
 func main() {
