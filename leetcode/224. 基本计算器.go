@@ -39,7 +39,6 @@ func calculate(s string) int {
 				tmp *= 10
 				tmp += int(si - '0')
 				i++
-				si = s[i]
 			}
 			tmp *= sign
 			r += tmp
