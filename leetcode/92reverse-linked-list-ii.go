@@ -72,6 +72,31 @@ func foo(head *ListNode6, n int) *ListNode6 {
 	return last
 }
 
+func reverseBetween10318(head *ListNode6, left int, right int) *ListNode6 {
+	if head == nil || head.Next == nil {
+		return head
+	}
+	headF := &ListNode6{Val: 0}
+	headF.Next = head
+	head = headF
+	headLeft := &ListNode6{Val: 0}
+	for i := 1; i <= left; i++ {
+		headLeft = head
+		head = head.Next
+	}
+	tmp := head
+	tmp2 := &ListNode6{Val: 0}
+	for i := left; i <= right; i++ {
+		pre := head.Next
+		head.Next = tmp2
+		tmp2 = head
+		head = pre
+	}
+	headLeft.Next = tmp2
+	tmp.Next = head
+	return headF.Next
+}
+
 func main() {
 	var l1 ListNode6
 	var l2 ListNode6
@@ -93,9 +118,9 @@ func main() {
 		head = head.Next
 	}
 	m := 2
-	n := 2
+	n := 4
 	fmt.Println("-----")
-	r := reverseBetween(&l4, m, n)
+	r := reverseBetween10318(&l1, m, n)
 	//r := foo(&l1, n)
 	for r != nil {
 		fmt.Println(r.Val)
