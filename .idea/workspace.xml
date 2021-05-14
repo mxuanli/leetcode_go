@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/1269. 停在原地的方案数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/1310. 子数组异或查询.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/1269. 停在原地的方案数.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="651">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -90,15 +98,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
               <caret line="689" selection-start-line="689" selection-end-line="689" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/403. 青蛙过河.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -171,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/978. 最长湍流子数组.go" />
         <option value="$PROJECT_DIR$/leetcode/995. K 连续位的最小翻转次数.go" />
         <option value="$PROJECT_DIR$/leetcode/1004. 最大连续1的个数 III.go" />
         <option value="$PROJECT_DIR$/leetcode/697. 数组的度.go" />
@@ -222,6 +220,7 @@
         <option value="$PROJECT_DIR$/leetcode/1734. 解码异或后的排列.go" />
         <option value="$PROJECT_DIR$/leetcode/1310. 子数组异或查询.go" />
         <option value="$PROJECT_DIR$/leetcode/1269. 停在原地的方案数.go" />
+        <option value="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" />
       </list>
     </option>
   </component>
@@ -289,7 +288,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 1310. 子数组异或查询.go">
+  <component name="RunManager" selected="Go Build.go build 12. 整数转罗马数字.go">
+    <configuration name="go build 12. 整数转罗马数字.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 1310. 子数组异或查询.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -322,21 +329,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/demo.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 12. 整数转罗马数字.go" />
         <item itemvalue="Go Build.go build 1310. 子数组异或查询.go" />
         <item itemvalue="Go Build.go build 403. 青蛙过河.go" />
         <item itemvalue="Go Build.go build 783. 二叉搜索树节点最小距离.go" />
         <item itemvalue="Go Build.go build 81. 搜索旋转排序数组 II.go" />
-        <item itemvalue="Go Build.go build demo.go" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="132、232、303、304、338、354" />
     <MESSAGE value="224、1047" />
     <MESSAGE value="224、227、331" />
     <MESSAGE value="115、1603、341、54、59、92" />
@@ -435,7 +433,8 @@
     <MESSAGE value="error" />
     <MESSAGE value="872" />
     <MESSAGE value="1734" />
-    <option name="LAST_COMMIT_MESSAGE" value="1734" />
+    <MESSAGE value="1269、1310" />
+    <option name="LAST_COMMIT_MESSAGE" value="1269、1310" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -455,13 +454,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/303. 区域和检索 - 数组不可变.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/304. 二维区域和检索 - 矩阵不可变.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -808,8 +800,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/1269. 停在原地的方案数.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="651">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
