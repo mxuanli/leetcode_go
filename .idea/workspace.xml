@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="180">
+              <caret line="6" column="96" lean-forward="true" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -98,15 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
               <caret line="689" selection-start-line="689" selection-end-line="689" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/1720. 解码异或后的数组.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -155,6 +155,7 @@
       <find>make</find>
       <find>map</find>
       <find>if</find>
+      <find>func(</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -170,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/995. K 连续位的最小翻转次数.go" />
         <option value="$PROJECT_DIR$/leetcode/1004. 最大连续1的个数 III.go" />
         <option value="$PROJECT_DIR$/leetcode/697. 数组的度.go" />
         <option value="$PROJECT_DIR$/leetcode/766. 托普利茨矩阵.go" />
@@ -221,6 +221,7 @@
         <option value="$PROJECT_DIR$/leetcode/1310. 子数组异或查询.go" />
         <option value="$PROJECT_DIR$/leetcode/1269. 停在原地的方案数.go" />
         <option value="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" />
+        <option value="$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go" />
       </list>
     </option>
   </component>
@@ -348,8 +349,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5011521" side_tool="true" weight="0.18988357" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3086312" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3304272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3086312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3304272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -409,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="224、1047" />
     <MESSAGE value="224、227、331" />
     <MESSAGE value="115、1603、341、54、59、92" />
     <MESSAGE value="90、190" />
@@ -434,7 +434,8 @@
     <MESSAGE value="872" />
     <MESSAGE value="1734" />
     <MESSAGE value="1269、1310" />
-    <option name="LAST_COMMIT_MESSAGE" value="1269、1310" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,13 +455,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/304. 二维区域和检索 - 矩阵不可变.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/338. 比特位计数.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -807,8 +801,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="6" column="96" lean-forward="true" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
