@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="667">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,15 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
               <caret line="689" selection-start-line="689" selection-end-line="689" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/1486. 数组异或操作.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -147,7 +150,6 @@
       <find>for</find>
       <find>{}</find>
       <find>int</find>
-      <find>sort</find>
       <find>struct</find>
       <find>cop</find>
       <find>&amp;</find>
@@ -156,6 +158,7 @@
       <find>map</find>
       <find>if</find>
       <find>func(</find>
+      <find>sort</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -171,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/1004. 最大连续1的个数 III.go" />
         <option value="$PROJECT_DIR$/leetcode/697. 数组的度.go" />
         <option value="$PROJECT_DIR$/leetcode/766. 托普利茨矩阵.go" />
         <option value="$PROJECT_DIR$/leetcode/1052. 爱生气的书店老板.go" />
@@ -222,6 +224,7 @@
         <option value="$PROJECT_DIR$/leetcode/1269. 停在原地的方案数.go" />
         <option value="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" />
         <option value="$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go" />
+        <option value="$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go" />
       </list>
     </option>
   </component>
@@ -289,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 12. 整数转罗马数字.go">
+  <component name="RunManager" selected="Go Build.go build 1738. 找出第 K 大的异或坐标值.go">
     <configuration name="go build 12. 整数转罗马数字.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -303,6 +306,14 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/leetcode/1310. 子数组异或查询.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 1738. 找出第 K 大的异或坐标值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -322,21 +333,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 81. 搜索旋转排序数组 II.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/81. 搜索旋转排序数组 II.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 1738. 找出第 K 大的异或坐标值.go" />
         <item itemvalue="Go Build.go build 12. 整数转罗马数字.go" />
         <item itemvalue="Go Build.go build 1310. 子数组异或查询.go" />
         <item itemvalue="Go Build.go build 403. 青蛙过河.go" />
         <item itemvalue="Go Build.go build 783. 二叉搜索树节点最小距离.go" />
-        <item itemvalue="Go Build.go build 81. 搜索旋转排序数组 II.go" />
       </list>
     </recent_temporary>
   </component>
@@ -344,13 +347,13 @@
     <frame x="117" y="23" width="2414" height="1313" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.19685374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.19685374" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22321428" />
       <window_info id="Favorites" order="2" sideWeight="0.5011521" side_tool="true" weight="0.18988357" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3086312" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3304272" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3086312" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3304272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -410,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="224、227、331" />
     <MESSAGE value="115、1603、341、54、59、92" />
     <MESSAGE value="90、190" />
     <MESSAGE value="1006" />
@@ -435,7 +437,8 @@
     <MESSAGE value="1734" />
     <MESSAGE value="1269、1310" />
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="993" />
+    <option name="LAST_COMMIT_MESSAGE" value="993" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -455,13 +458,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/338. 比特位计数.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/239. 滑动窗口最大值.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -778,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/1310. 子数组异或查询.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -809,7 +798,24 @@
     <entry file="file://$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
