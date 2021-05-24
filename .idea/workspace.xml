@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="" />
+    <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/664. 奇怪的打印机.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,24 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/1011. 在 D 天内送达包裹的能力.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/872. 叶子相似的树.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/1734. 解码异或后的排列.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="492">
@@ -98,6 +82,24 @@
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/1035. 不相交的线.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/664. 奇怪的打印机.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -171,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/697. 数组的度.go" />
-        <option value="$PROJECT_DIR$/leetcode/766. 托普利茨矩阵.go" />
         <option value="$PROJECT_DIR$/leetcode/1052. 爱生气的书店老板.go" />
         <option value="$PROJECT_DIR$/leetcode/832. 翻转图像.go" />
         <option value="$PROJECT_DIR$/leetcode/867. 转置矩阵.go" />
@@ -222,6 +222,8 @@
         <option value="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" />
         <option value="$PROJECT_DIR$/leetcode/993. 二叉树的堂兄弟节点.go" />
         <option value="$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go" />
+        <option value="$PROJECT_DIR$/leetcode/1035. 不相交的线.go" />
+        <option value="$PROJECT_DIR$/leetcode/664. 奇怪的打印机.go" />
       </list>
     </option>
   </component>
@@ -342,14 +344,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="117" y="23" width="2414" height="1313" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.19685374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.19685374" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22321428" />
       <window_info id="Favorites" order="2" sideWeight="0.5011521" side_tool="true" weight="0.18988357" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3086312" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3304272" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3304272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -409,7 +412,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="90、190" />
     <MESSAGE value="1006" />
     <MESSAGE value="80" />
     <MESSAGE value="81、783" />
@@ -434,7 +436,8 @@
     <MESSAGE value="12" />
     <MESSAGE value="993" />
     <MESSAGE value="1738" />
-    <option name="LAST_COMMIT_MESSAGE" value="1738" />
+    <MESSAGE value="1035" />
+    <option name="LAST_COMMIT_MESSAGE" value="1035" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,23 +457,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/239. 滑动窗口最大值.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/354. 俄罗斯套娃信封问题.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/232. 用栈实现队列.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -812,6 +798,20 @@
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1035. 不相交的线.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/664. 奇怪的打印机.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
