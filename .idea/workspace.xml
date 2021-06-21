@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/1239. 串联字符串的最大长度.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/1239. 串联字符串的最大长度.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="901">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/401. 二进制手表.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -90,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/338. 比特位计数.go" />
         <option value="$PROJECT_DIR$/leetcode/354. 俄罗斯套娃信封问题.go" />
         <option value="$PROJECT_DIR$/leetcode/232. 用栈实现队列.go" />
         <option value="$PROJECT_DIR$/leetcode/132. 分割回文串 II.go" />
@@ -141,6 +148,7 @@
         <option value="$PROJECT_DIR$/leetcode/231. 2 的幂.go" />
         <option value="$PROJECT_DIR$/leetcode/342. 4的幂.go" />
         <option value="$PROJECT_DIR$/leetcode/1239. 串联字符串的最大长度.go" />
+        <option value="$PROJECT_DIR$/leetcode/401. 二进制手表.go" />
       </list>
     </option>
   </component>
@@ -263,7 +271,7 @@
     <frame x="117" y="23" width="2414" height="1313" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.2045068" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.2045068" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22321428" />
       <window_info id="Favorites" order="2" sideWeight="0.5011521" side_tool="true" weight="0.18988357" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,7 +290,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1377551" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.1377551" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +337,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="213" />
     <MESSAGE value="198" />
     <MESSAGE value="91" />
     <MESSAGE value="91、368" />
@@ -354,7 +361,8 @@
     <MESSAGE value="664" />
     <MESSAGE value="461、477" />
     <MESSAGE value="231、342" />
-    <option name="LAST_COMMIT_MESSAGE" value="231、342" />
+    <MESSAGE value="1239" />
+    <option name="LAST_COMMIT_MESSAGE" value="1239" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,13 +381,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/224. 基本计算器.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/227. 基本计算器 II.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -721,8 +722,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/1239. 串联字符串的最大长度.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="901">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/401. 二进制手表.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
