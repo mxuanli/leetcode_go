@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"math/bits"
+)
+
 func readBinaryWatch(turnedOn int) []string {
 	var r []string
 	if turnedOn >= 9 {
