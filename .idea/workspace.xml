@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/leetcode/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/demo.go" afterDir="false" />
-    </list>
+    <list default="true" id="48bfc536-aeb5-41a9-895d-5d803b08e9f6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +69,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/demo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="547">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/1711. 大餐计数.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/1711. 大餐计数.go">
+        <entry file="file://$PROJECT_DIR$/leetcode/930. 和相同的二元子数组.go">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="12" selection-start-column="12" selection-end-column="12" />
@@ -149,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/224. 基本计算器.go" />
         <option value="$PROJECT_DIR$/leetcode/227. 基本计算器 II.go" />
         <option value="$PROJECT_DIR$/leetcode/331. 验证二叉树的前序序列化.go" />
         <option value="$PROJECT_DIR$/leetcode/54. 螺旋矩阵.go" />
@@ -200,6 +206,7 @@
         <option value="$PROJECT_DIR$/leetcode/1833. 雪糕的最大数量.go" />
         <option value="$PROJECT_DIR$/leetcode/demo.go" />
         <option value="$PROJECT_DIR$/leetcode/1711. 大餐计数.go" />
+        <option value="$PROJECT_DIR$/leetcode/930. 和相同的二元子数组.go" />
       </list>
     </option>
   </component>
@@ -388,7 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2.7" />
     <MESSAGE value="783" />
     <MESSAGE value="1011" />
     <MESSAGE value="1011、938" />
@@ -413,7 +419,8 @@
     <MESSAGE value="401" />
     <MESSAGE value="149、Offer15" />
     <MESSAGE value="1833" />
-    <option name="LAST_COMMIT_MESSAGE" value="1833" />
+    <MESSAGE value="1711" />
+    <option name="LAST_COMMIT_MESSAGE" value="1711" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -432,13 +439,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/115. 不同的子序列.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/92reverse-linked-list-ii.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -779,12 +779,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/demo.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="547">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/1711. 大餐计数.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/930. 和相同的二元子数组.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
