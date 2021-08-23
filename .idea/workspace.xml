@@ -30,36 +30,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/1239. 串联字符串的最大长度.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/401. 二进制手表.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#14#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/剑指 Offer 15. 二进制中1的个数.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/149. 直线上最多的点数.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="900">
@@ -99,16 +69,39 @@
         <entry file="file://$PROJECT_DIR$/leetcode/面试题 17.10. 主要元素.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="780">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/1877. 数组中最大数对和的最小值.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/2addTwoNums.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/1twoSum.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/1877. 数组中最大数对和的最小值.go">
+        <entry file="file://$PROJECT_DIR$/leetcode/1646. 获取生成数组中的最大值.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="630">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -177,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/54. 螺旋矩阵.go" />
         <option value="$PROJECT_DIR$/leetcode/59. 螺旋矩阵 II.go" />
         <option value="$PROJECT_DIR$/leetcode/115. 不同的子序列.go" />
         <option value="$PROJECT_DIR$/leetcode/92reverse-linked-list-ii.go" />
@@ -228,6 +220,7 @@
         <option value="$PROJECT_DIR$/leetcode/930. 和相同的二元子数组.go" />
         <option value="$PROJECT_DIR$/leetcode/面试题 17.10. 主要元素.go" />
         <option value="$PROJECT_DIR$/leetcode/1877. 数组中最大数对和的最小值.go" />
+        <option value="$PROJECT_DIR$/leetcode/1646. 获取生成数组中的最大值.go" />
       </list>
     </option>
   </component>
@@ -243,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,6 +252,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,13 +260,17 @@
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -295,20 +292,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build demo.go">
-    <configuration name="go build 12. 整数转罗马数字.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 1646. 获取生成数组中的最大值.go">
+    <configuration name="go build 1646. 获取生成数组中的最大值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/leetcode" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/12. 整数转罗马数字.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 1738. 找出第 K 大的异或坐标值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/1738. 找出第 K 大的异或坐标值.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/1646. 获取生成数组中的最大值.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -320,11 +309,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 461. 汉明距离.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 1877. 数组中最大数对和的最小值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/leetcode" />
+      <sudo value="true" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetcode/461. 汉明距离.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/1877. 数组中最大数对和的最小值.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 1twoSum.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$/leetcode" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leetcode/1twoSum.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -338,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 1646. 获取生成数组中的最大值.go" />
+        <item itemvalue="Go Build.go build 1twoSum.go" />
+        <item itemvalue="Go Build.go build 1877. 数组中最大数对和的最小值.go" />
         <item itemvalue="Go Build.go build demo.go" />
         <item itemvalue="Go Build.go build 1833. 雪糕的最大数量.go" />
-        <item itemvalue="Go Build.go build 461. 汉明距离.go" />
-        <item itemvalue="Go Build.go build 1738. 找出第 K 大的异或坐标值.go" />
-        <item itemvalue="Go Build.go build 12. 整数转罗马数字.go" />
       </list>
     </recent_temporary>
   </component>
@@ -350,13 +348,13 @@
     <frame x="117" y="23" width="2414" height="1313" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.21471089" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.22746599" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.22321428" />
       <window_info id="Favorites" order="2" sideWeight="0.5011521" side_tool="true" weight="0.18988357" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3086312" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34699216" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34699216" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -416,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1011、938" />
     <MESSAGE value="02.08" />
     <MESSAGE value="633、02.08" />
     <MESSAGE value="403" />
@@ -441,7 +438,11 @@
     <MESSAGE value="1711" />
     <MESSAGE value="930" />
     <MESSAGE value="面试 17.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试 17.10" />
+    <MESSAGE value="1877" />
+    <option name="LAST_COMMIT_MESSAGE" value="1877" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,24 +461,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/341. 扁平化嵌套列表迭代器.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.en.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/82remove-duplicates-from-sorted-list-ii.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -795,6 +778,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/面试题 17.10. 主要元素.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1877. 数组中最大数对和的最小值.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/2addTwoNums.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/1833. 雪糕的最大数量.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -805,17 +805,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/面试题 17.10. 主要元素.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/1twoSum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="901">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/1877. 数组中最大数对和的最小值.go">
+    <entry file="file://$PROJECT_DIR$/leetcode/1646. 获取生成数组中的最大值.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="630">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
